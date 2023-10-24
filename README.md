@@ -34,7 +34,7 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
 - So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
-- 
+
 </details> 
 
 # Homework-2
