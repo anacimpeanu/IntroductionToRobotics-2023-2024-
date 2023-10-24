@@ -29,7 +29,7 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 
 ![Poza 3 IR](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/792a0f21-dc8d-4ee6-bc91-25e64a62749a)
 
-### 📽 Video : [ RGB Video ] (https://youtube.com/shorts/AQVuu2zn9Hw)
+### 📽 Video : [ RGB Video ](https://youtube.com/shorts/AQVuu2zn9Hw)
 
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
