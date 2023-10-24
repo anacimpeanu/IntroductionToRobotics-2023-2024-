@@ -23,14 +23,16 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 
 ### 🕹 Electronic scheme: ![IR schema final](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/94e1bbc6-0383-4f4e-93e0-0ff483e604af)
 
+![ir 1](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f9e849cf-358f-4155-95eb-561062c7e1b8)
+
+
+![ir 2](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/48440d26-e407-48c0-a696-24bae8bf2c22)
+
 
 ### 📸 Electronic circuit in real life:
-![poza 2 IR](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/c67bd8d5-2154-4d05-ba6b-6972e0e46e77)
 
 
-![Poza 3 IR](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/792a0f21-dc8d-4ee6-bc91-25e64a62749a)
-
-### 📽 Video : [ RGB Video 🧨](https://www.youtube.com/shorts/AQVuu2zn9Hw)
+### 📽 Video : [ RGB Video 🧨](https://youtu.be/yFtEyoPxVpA)
 
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
