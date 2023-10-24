@@ -21,7 +21,8 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/RGB_HOMEWORK_1.ino)
 
-### 🕹 Electronic scheme: ![poza 1 Robotica](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/994cc0ce-5953-4d28-b169-ed9d53d53344)
+### 🕹 Electronic scheme: ![IR schema final](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/94e1bbc6-0383-4f4e-93e0-0ff483e604af)
+
 
 ### 📸 Electronic circuit in real life:
 ![poza 2 IR](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/c67bd8d5-2154-4d05-ba6b-6972e0e46e77)
