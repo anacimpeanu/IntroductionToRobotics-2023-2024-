@@ -26,7 +26,8 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 ![ir 1](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f9e849cf-358f-4155-95eb-561062c7e1b8)
 
 
-![ir 2](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/48440d26-e407-48c0-a696-24bae8bf2c22)
+![ir 3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/550e9c80-e87c-4e9d-a858-a5de46684279)
+
 
 
 ### 📸 Electronic circuit in real life:
