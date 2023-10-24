@@ -19,7 +19,7 @@ Robotics Introduction Course ( 3rd year )
 Utilize a separate potentiometer to independently control each color of the RGB LED (Red, Green, and Blue). This control should be achieved using digital electronics.
 </details>
 
-### 🖥 Code : [ The Code 🖥 ]
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/RGB_HOMEWORK_1.ino)
 
 ### 🕹 Electronic scheme: ![poza 1 Robotica](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/994cc0ce-5953-4d28-b169-ed9d53d53344)
 
