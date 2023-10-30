@@ -41,4 +41,14 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 </details> 
 
 # Homework-2
+<details>
+<summary> <h2> Elevator 🎮 </h2> </summary>
+<h3>Task</h3>
+</details>
+
+### 🖥 Code :
+
+### 🕹 Electronic scheme:![schema](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/cdc57a3c-2b20-4a83-83ac-ac0d5b0fd4f2)
+
+
 ![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f3795070-b819-4e07-bff8-05112beb6c84)
