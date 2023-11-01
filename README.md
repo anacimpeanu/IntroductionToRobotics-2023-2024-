@@ -47,16 +47,16 @@ This assignment involves simulating a 3-floor elevator control system using
 LEDs, buttons, and a buzzer with Arduino.
 You'll acquire expertise in utilizing button state transitions, applying debouncing methods, and orchestrating various components to simulate real-life situations.
 <h3>Tasks</h3>
-<details>
+<summary>
 Design a control system that simulates a 3-floor elevator using the Arduino
 platform.
-  ### LED Indicators: Three LEDs, each symbolizing a different floor, with one lighting up to show the current floor. Another LED indicating the elevator's status, blinking during movement and staying steady when stationary.
-  ### Buttons: Create 3 buttons for floor call requests. When pressed, the elevator should simulate movement towards the corresponding floor after a brief delay (2-3 seconds).
-  ### Buzzer: The buzzer should produce brief sounds in the following situations:
+  - LED Indicators: Three LEDs, each symbolizing a different floor, with one lighting up to show the current floor. Another LED indicating the elevator's status, blinking during movement and staying steady when stationary.
+  - Buttons: Create 3 buttons for floor call requests. When pressed, the elevator should simulate movement towards the corresponding floor after a brief delay (2-3 seconds).
+  - Buzzer: The buzzer should produce brief sounds in the following situations:
               - When the elevator arrives at the requested floor (resembling a "ding").
               - During elevator door closing and movement (with distinct sounds for each action).
-  ### State & Timers: If the elevator is already at the chosen floor, pressing the button for that floor does nothing. Otherwise, after a button press, the elevator should first wait for the doors to close and then move to the desired floor. If the elevator is already moving, it should either delay the action or queue it for after completing its current tasks.
-</details>
+  - State & Timers: If the elevator is already at the chosen floor, pressing the button for that floor does nothing. Otherwise, after a button press, the elevator should first wait for the doors to close and then move to the desired floor. If the elevator is already moving, it should either delay the action or queue it for after completing its current tasks.
+</summary>
 
 
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/ELEVATOR_HOMEWORK_II.ino)
