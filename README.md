@@ -42,7 +42,7 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 
 # Homework-2
 <details>
-<summary> <h2> RGB led control with 3 potentiometers 🎮 </h2> </summary>
+<summary> <h2> Elevator 🛗 </h2> </summary>
 This assignment involves simulating a 3-floor elevator control system using
 LEDs, buttons, and a buzzer with Arduino.
 You'll acquire expertise in utilizing button state transitions, applying debouncing methods, and orchestrating various components to simulate real-life situations.
@@ -67,7 +67,7 @@ platform.
 ![poza1_ir_2](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6c3cefd1-6c12-4939-9919-63c0e31eb168)
 ![poza2_ir_2](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/8b36885d-4b3b-407d-9781-5d5c582b716d)
 
-### 📽 Video : [ ELEVATOR VIDEO  🧨](https://youtube.com/shorts/OGeQ3VK3NGE?feature=share)
+### 📽 Video : [ ELEVATOR VIDEO 🛗](https://youtube.com/shorts/OGeQ3VK3NGE?feature=share)
 
 </details>
 
