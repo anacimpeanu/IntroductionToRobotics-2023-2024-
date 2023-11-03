@@ -23,14 +23,12 @@ Utilize a separate potentiometer to independently control each color of the RGB 
 
 ### 🕹 Electronic scheme: ![IR schema final](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/94e1bbc6-0383-4f4e-93e0-0ff483e604af)
 
-)
-
 
 ### 📸 Electronic circuit in real life:
 ![ir 4](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ea5f1460-1497-47f4-814b-68cbce823bef)
 
 
-![ir 3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f2147743-0050-4abc-8c60-3fa82d5a2e7c
+![ir 3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f2147743-0050-4abc-8c60-3fa82d5a2e7c)
 
 ### 📽 Video : [ RGB Video 🧨](https://youtu.be/yFtEyoPxVpA)
 
