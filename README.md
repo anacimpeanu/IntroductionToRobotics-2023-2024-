@@ -101,7 +101,7 @@ To operate the segment and create drawings on the display, you will employ the j
 
 ![ir_p2_3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/001baccc-71d5-4ff9-b7f3-60d259fb01bf)
 
-### 📽 Video : [ 7-segment drawing](https://youtu.be/yFtEyoPxVpA)
+### 📽 Video : [ 7-segment drawing](https://youtu.be/vHeJH_eb4iU)
 
 ### 🔌 Important : 
 ## The axes of the merging joystick will be taken into account (that difference is explained in the way and in the code)
