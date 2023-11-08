@@ -111,4 +111,4 @@ To operate the segment and create drawings on the display, you will employ the j
 
 </details> 
 # Homework-4
-![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f3795070-b819-4e07-bff8-05112beb6c84)
+
