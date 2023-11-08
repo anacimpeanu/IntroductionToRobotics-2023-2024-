@@ -91,7 +91,7 @@ To operate the segment and create drawings on the display, you will employ the j
 
 
 
-### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/RGB_HOMEWORK_1.ino)
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/SEGMENT_HOMEWORK_III.ino)
 
 ### 🕹 Electronic scheme: ![ir_3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/7584b217-328a-480e-b98e-504ca061965c)
 
