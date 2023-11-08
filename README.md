@@ -10,6 +10,7 @@ Robotics Introduction Course ( 3rd year )
 - 🚨[Homework 1](#homework-1)
 - 🚨[Homework 2](#homework-2)
 - 🚨[Homework 3](#homework-3)
+- 🚨[Homework 4](#homework-4)
 - 🚨to be continued.............
 # Homework-1
 <details>
@@ -73,4 +74,41 @@ staying steady when stationary.
 </details>
 
 # Homework-3
+<details>
+<summary> <h2> 7- segment display drawing </h2> </summary>
+To operate the segment and create drawings on the display, you will employ the joystick for precise control. The transition between segments must feel organic, ensuring that they move smoothly from their current location to adjacent positions, while avoiding passing through obstacles or "walls."
+
+## Task 
+
+- Begin at the starting point, which should be located at the decimal point (DP). The current position will consistently blink, regardless of whether the segment is active or not. Utilize the joystick to transition between neighboring positions, as indicated in the table for the appropriate movements. A brief press of the button will toggle the segment's state between ON and OFF, while a prolonged press of the button will reset the entire display by deactivating all segments and relocating the current position to the decimal point.
+-  ### Components : 
+                - 1 7-segment display
+                - 1 joystick
+                - resistors and wires (perlogic)
+   
+- ### Tabel with cases :
+<img width="294" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/beaa7d3f-8ca8-4410-9803-9875ad7518bd">
+
+
+
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/RGB_HOMEWORK_1.ino)
+
+### 🕹 Electronic scheme: ![ir_3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/7584b217-328a-480e-b98e-504ca061965c)
+
+
+### 📸 Electronic circuit in real life:
+![ir 4](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ea5f1460-1497-47f4-814b-68cbce823bef)
+
+
+![ir 3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f2147743-0050-4abc-8c60-3fa82d5a2e7c)
+
+### 📽 Video : [ 7-segment drawing](https://youtu.be/yFtEyoPxVpA)
+
+### 🔌 Important : 
+## The axes of the merging joystick will be taken into account (that difference is explained in the way and in the code)
+## Something useful for me : [Something](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/files/13293533/Facultate.3.pdf)
+
+
+</details> 
+# Homework-4
 ![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f3795070-b819-4e07-bff8-05112beb6c84)
