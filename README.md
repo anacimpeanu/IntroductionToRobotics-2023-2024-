@@ -97,10 +97,9 @@ To operate the segment and create drawings on the display, you will employ the j
 
 
 ### 📸 Electronic circuit in real life:
-![ir 4](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ea5f1460-1497-47f4-814b-68cbce823bef)
+![ir_p_3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/77f75aaf-c00c-450b-887b-41b630c5b583)
 
-
-![ir 3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f2147743-0050-4abc-8c60-3fa82d5a2e7c)
+![ir_p2_3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/001baccc-71d5-4ff9-b7f3-60d259fb01bf)
 
 ### 📽 Video : [ 7-segment drawing](https://youtu.be/yFtEyoPxVpA)
 
