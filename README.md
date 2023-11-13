@@ -110,5 +110,49 @@ To operate the segment and create drawings on the display, you will employ the j
 
 </details> 
 
+# Homework-4
+<details>
+<summary> <h2> Stopwach ⏲  </h2> </summary>
+I have implemented a stopwatch timer that measures time in tenths of a second and includes a feature to save lap times.
 
+### Task 
+To implement a stopwatch.
+Initial state : 000.0.
+📍 Make sure you put the dot ”.”
+## Components 
+            - 7-segment display
+            - 3 buttons
+            - resistors and wires 
+            - Bonus : I was thinking of using a led / buzzer to check the operation of the buttons
+## The functionality of the buttons
 
+            ⚙️ Button 1 - START / PAUSE 
+            📍 Important to know : The display will indicate "000.0". Upon pressing the Start button, the timer will commence.
+            📍 Counting mode :
+                  - Button 2 doesn't work 
+            📍 In pause mode :
+                  - Button 2 can reset the display back at initial state ( if it is pressed ) 
+                  - Button 3 doesn't work 
+                  
+            ⚙️ BUtton 2 - RESET
+            📍 Important to know : Reset functionality is available when the timer is in pause mode. 
+            📍 Button 2 and the timer is still couting othing happens .
+            📍 If in lap viewing mode, resetting will also clear saved laps.
+
+            ⚙️ Button 3 - Save the lap time when in counting mode and cycle through the last four saved laps.
+            📍 Important to know : 
+                - Counting mode -> every time you press the lap button ( button 3 )
+                - This save the timers value up to 4 times when pressed the fifth time it overrides the one saved first.
+              
+### 🖥 Code : [ The Code 🖥 ]
+
+### 🕹 Electronic scheme:![ir_5](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/78b6ffd3-abde-4524-9f84-64fa78e4670b)
+
+### 📸 Electronic circuit in real life:
+
+### 📽 Video : [Stopwach ⏲ ]
+
+### 🔌 Important : 
+## Something useful for me : 
+
+            
