@@ -11,6 +11,7 @@ Robotics Introduction Course ( 3rd year )
 - 🚨[Homework 2](#homework-2)
 - 🚨[Homework 3](#homework-3)
 - 🚨[Homework 4](#homework-4)
+- 🚨[Homework 5](#homework-5)
 - 🚨to be continued.............
 # Homework-1
 <details>
@@ -134,7 +135,7 @@ Initial state : 000.0.
                   - Button 2 can reset the display back at initial state ( if it is pressed ) 
                   - Button 3 doesn't work 
                   
-            ⚙️ BUtton 2 - RESET
+            ⚙️ Button 2 - RESET
             📍 Important to know : Reset functionality is available when the timer is in pause mode. 
             📍 Button 2 and the timer is still couting othing happens .
             📍 If in lap viewing mode, resetting will also clear saved laps.
@@ -154,5 +155,8 @@ Initial state : 000.0.
 
 ### 🔌 Important : 
 ## Something useful for me : 
+
+# Homework-5
+![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/39316847-11da-4220-adb8-82cbb081ed93)
 
             
