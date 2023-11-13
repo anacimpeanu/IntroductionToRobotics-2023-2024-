@@ -156,6 +156,8 @@ Initial state : 000.0.
 ### 🔌 Important : 
 ## Something useful for me : 
 
+</details>
+
 # Homework-5
 ![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/39316847-11da-4220-adb8-82cbb081ed93)
 
