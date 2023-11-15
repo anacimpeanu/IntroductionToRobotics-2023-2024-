@@ -154,9 +154,10 @@ Initial state : 000.0.
 ### 📸 Electronic circuit in real life: 
 
 
-<img src ="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/2a5ea5d4-2ea3-45ba-b8c9-28c59bbab5a6.jpg" width="400" height="500">
+<img width="500" hight="500" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/88dac72a-e223-45ef-8bc4-714e24ed891a">
 
-<img src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/af25b659-0583-4df4-a141-7857e4694858.jpg" width="400" height="500">
+<img width="500" high="500" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/8458a06b-b6b6-4f53-8cd4-e5ddd05b7ac7">
+
 
 
 
