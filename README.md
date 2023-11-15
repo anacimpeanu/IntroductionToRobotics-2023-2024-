@@ -145,7 +145,7 @@ Initial state : 000.0.
                 - Counting mode -> every time you press the lap button ( button 3 )
                 - This save the timers value up to 4 times when pressed the fifth time it overrides the one saved first.
               
-### 🖥 Code : [ The Code 🖥 ]
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/STOPWACH_HOMEWORKIV.ino)
 
 ### 🕹 Electronic scheme:![ir_5](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/78b6ffd3-abde-4524-9f84-64fa78e4670b)
 
