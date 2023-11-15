@@ -150,9 +150,7 @@ Initial state : 000.0.
 ### 🕹 Electronic scheme:![ir_5](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/78b6ffd3-abde-4524-9f84-64fa78e4670b)
 
 
-### 📸 Electronic circuit in real life:
-
-![ir4_5](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/1738d65b-5c88-4be9-ba0a-7089710448cf)
+### 📸 Electronic circuit in real life: ![ir4_5](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/1738d65b-5c88-4be9-ba0a-7089710448cf)
 ![ir4_55](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/49eaa853-f8bd-46e8-8729-9cc5cfd84e94)
 
 
