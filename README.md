@@ -215,8 +215,8 @@ Request a threshold value for the LDR sensor, determining if it signifies the mi
 ### Reset 
 <details> 
 ARE YOU SURE? 
-  <b>YES</b> -> i can reset one of this sensors or both -> main menu
-  <b>NO</b> -> back to Main Menu
+  - <b>YES</b> -> i can reset one of this sensors or both -> main menu
+  - <b>NO</b> -> back to Main Menu
 </details>
 
 ### 3.1 
@@ -244,10 +244,9 @@ sensors.
 
 ### ON/OFF
 <details>
-  <b> ON </b> -> led color should be <p style="color:green;"> GREEN </p> and < p style="color:red;"> RED </p> if is it on ALERT mode .
-  <b> OFF </b> -> Led should use the last saved RGB values .
+  - <b> ON </b> -> led color should be <color> GREEN </color>color> and <color> RED </color> if is it on ALERT mode .
+  - <b> OFF </b> -> Led should use the last saved RGB values .
 </details>
-<p style="color:#FF0000";>Red paragraph text</p>
 
 ### 🖥 Code : [ The Code 🖥 ]
 ### 🕹 Electronic scheme:![WhatsApp Image 2023-11-20 at 10 35 11_edf0d5b3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/4c8819ae-2183-4a0a-b3e2-54e1758eea06)
