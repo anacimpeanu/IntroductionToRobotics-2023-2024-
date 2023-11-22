@@ -184,54 +184,54 @@ Create a "Smart Environment Monitor and Logger" with Arduino, employing diverse 
             - Breadboard and wires
 ## Menu Structure
             - 1. Sensor Settings
-                - 1.1 Sensors Sampling Interval 
-                - 1.2 Ultrasonic Alert Threshold 
-                - 1.3 LDR Alert Threshold
-                - 1.4 Back to the menu
+               📍- 1.1 Sensors Sampling Interval 
+               📍- 1.2 Ultrasonic Alert Threshold 
+               📍- 1.3 LDR Alert Threshold
+               📍- 1.4 Back to the menu
             - 2. Reset Logger Data 
-                - 2.1 Yes 
-                - 2.2 No
+               📍- 2.1 Yes 
+               📍- 2.2 No
             - 3. System Status 
-                - 3.1 Current Sensor Readings
-                - 3.2 Current Sensor Settings 
-                - 3.3 Display Logged Data
-                - 3.4 Back to the menu
+               📍- 3.1 Current Sensor Readings
+               📍- 3.2 Current Sensor Settings 
+               📍- 3.3 Display Logged Data
+               📍- 3.4 Back to the menu
             - 4. RGB LED Control
-                - 4.1 Manual Color Control 
-                - 4.2 LED : Toggle Automatic ON/OFF
+               📍- 4.1 Manual Color Control 
+               📍- 4.2 LED : Toggle Automatic ON/OFF
 ## Important
-### 1.1 
+### ⚙️ 1.1 
 <details> Input a value between 1 and 10 seconds when prompted; this will serve as the sampling rate for the sensors. Choose whether to use a separate value for each sensor or the same value for both. </details>
 
-### 1.2
+### ⚙️ 1.2
 <details> 
 Set a threshold for the ultrasonic sensor, indicating proximity (min or max). Receive an alert if the sensor value exceeds the threshold, accompanied by a red LED indication in Automatic Mode (refer to section 4.2). </details>
 
-### 1.3
+### ⚙️ 1.3
 <details> 
 Request a threshold value for the LDR sensor, determining if it signifies the minimum or maximum value (e.g., indicating nightfall). When the sensor surpasses the threshold, generate an alert, possibly a message. If the LED operates in Automatic Mode, turning red signifies any sensor exceeding the specified range.
 </details>
 
-### Reset 
+### ⚙️ Reset 
 <details> 
 ARE YOU SURE? 
   - <b>YES</b> -> i can reset one of this sensors or both -> main menu
   - <b>NO</b> -> back to Main Menu
 </details>
 
-### 3.1 
+### ⚙️ 3.1 
 <details>
   
 Continuously display sensor readings at the specified sampling rate from all sensors. Implement a method to exit this process, such as pressing a designated key, and inform the user of this exit method through a message.
 
 </details>
 
-### 3.2 
+### ⚙️ 3.2 
 <details> 
 Displays the sampling rate and threshold value for all sensors.
 </details>
 
-### 3.3
+### ⚙️ 3.3
 <details>
   Displays last 10 sensor readings for all.
 sensors.
@@ -242,7 +242,7 @@ sensors.
   Set RGB colors manually .
 </details>
 
-### ON/OFF
+### ⚙️ ON/OFF
 <details>
   - <b> ON </b> -> led color should be <color> GREEN </color>color> and <color> RED </color> if is it on ALERT mode .
   - <b> OFF </b> -> Led should use the last saved RGB values .
@@ -251,6 +251,10 @@ sensors.
 ### 🖥 Code : [ The Code 🖥 ]
 ### 🕹 Electronic scheme:![WhatsApp Image 2023-11-20 at 10 35 11_edf0d5b3](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/4c8819ae-2183-4a0a-b3e2-54e1758eea06)
 ### 📸 Electronic circuit in real life: 
+<img width="295" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/76b5f62b-2c66-4c53-8b0b-3888554f5980">
+<img width="291" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/7c7c4830-df4b-4325-8973-34e16d8d3a2d">
+<img width="296" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/52492d38-05a8-401c-9602-bf843d1a328a">
+
 ### 📽 Video :
 # Homework-6
 ![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/39316847-11da-4220-adb8-82cbb081ed93)
