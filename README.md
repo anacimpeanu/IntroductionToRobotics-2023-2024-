@@ -257,7 +257,7 @@ sensors.
 <img width="291" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/7c7c4830-df4b-4325-8973-34e16d8d3a2d">
 <img width="296" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/52492d38-05a8-401c-9602-bf843d1a328a">
 
-### 📽 Video : [ Menu ](https://youtu.be/LhocWMhOMys)
+### 📽 Video : [ Menu ](https://youtu.be/zxJAoutdkxM)
 # Homework-6
 ![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/39316847-11da-4220-adb8-82cbb081ed93)
 
