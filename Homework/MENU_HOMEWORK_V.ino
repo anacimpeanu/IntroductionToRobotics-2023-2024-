@@ -1,5 +1,6 @@
 #include <EEPROM.h>
 
+// flags control menu , submenu , reset etc . When the flag is true , the option active
 bool flagMenu = true;
 bool flagSubMenu = false;
 bool flagResetMenu = false;
@@ -10,6 +11,7 @@ bool flagLedAutomated = false;
 bool flagInterval = false;
 bool flagWriteContinue = false;
 
+// flags for control leds for automated mode ON 
 bool ok1 = 0;
 bool ok2 = 0;
 
@@ -25,15 +27,32 @@ int photocellValue;
 
 int automat = 0;
 
+// variables for intervals save 
 int intervalUltrasonic;
 int intervalLRD;
 
 int eepromAddress = 0;
 
+// variables for LED RGB 
 const int colorNumber = 3;
 const int ledPinColor[colorNumber] = {4,7,8};
 int ledValueColor[colorNumber];
+
+// flag for manual color mode control
 int color = 4;
+
+int ultrasonicThreshold;  // Threshold for ultrasonic sensor
+int lrdThreshold;        // Threshold for LRD sensor
+bool flagUltrasonic = false;  // Flag for ultrasonic sensor status
+bool flagLRD = false;          // Flag for LRD sensor status
+
+int maxUltrasonic = 0;   // Maximum value recorded by ultrasonic sensor
+int minUltrasonic = 0;   // Minimum value recorded by ultrasonic sensor
+
+int maxLrd = 0;          // Maximum value recorded by LRD sensor
+int minLrd = 0;          // Minimum value recorded by LRD sensor
+
+
 void setup() {
   Serial.begin(9600);
   mainMenu();
@@ -44,6 +63,7 @@ void setup() {
   pinMode(ledPinColor[2], OUTPUT);
 }
 
+// print main menu
 void mainMenu() {
   Serial.println(F("Select an option:"));
   Serial.println(F("1. \"Sensor Settings\" "));
@@ -52,6 +72,7 @@ void mainMenu() {
   Serial.println(F("4. \"RGB LED Control\" "));
 }
 
+// print subMenu of Sensor Settings 
 void printSubMenu() {
   Serial.println(F("Select an option:"));
   Serial.println(F("1. \"Sensor Sampling Interval\""));
@@ -60,12 +81,14 @@ void printSubMenu() {
   Serial.println(F("4. \"Back To Menu\""));
 }
 
+// print subMenu of Reset logger data
 void resetSubMenu() {
   Serial.println(F("Are you sure? Press:"));
   Serial.println(F("1. \"Yes\""));
   Serial.println(F("2. \"No\""));
 }
 
+// print subMenu of System status
 void systemSubMenu() {
   Serial.println(F("Select an option:"));
   Serial.println(F("1. \"Current readings \""));
@@ -74,12 +97,14 @@ void systemSubMenu() {
   Serial.println(F("4. \" Back to menu\""));
 }
 
+// print subMenu of RGB LED Control
 void ledSubMenu() {
   Serial.println(F("1. \"Manual color control \""));
   Serial.println(F("2. \"Automated ON/OFF \""));
   Serial.println(F("3. \" Back to menu\""));
 }
 
+// option for MENU
 void menuOption(int option) {
   switch (option) {
     case 1:
@@ -103,13 +128,17 @@ void menuOption(int option) {
 
 void intervalSettings() {
   if (flagInterval) {
+    // Prompt user to enter a value between 1 and 10 seconds for the sampling rate
     Serial.println(F("Enter a value between 1 and 10 seconds for the sampling rate: "));
     delay(1000); 
 
-    if (Serial.available() > 0 ) {
+    // Check if there is input from Serial
+    if (Serial.available() > 0) {
       int userValue = Serial.parseInt();
 
+      // Validate user input
       if (userValue >= 1 && userValue <= 10) {
+        // Set interval values for LRD and Ultrasonic
         intervalLRD = userValue;
         intervalUltrasonic = userValue;
 
@@ -119,38 +148,37 @@ void intervalSettings() {
         EEPROM.update(eepromAddress, intervalUltrasonic);
         eepromAddress += sizeof(intervalUltrasonic);
 
+        // Reset flag and display interval values
         flagInterval = false;
         Serial.println(F("Interval for LRD"));
         Serial.println(intervalLRD);
         Serial.println(F("Interval for Ultrasonic"));
         Serial.println(intervalUltrasonic);
       } else {
+        // Invalid input, prompt user again
         Serial.println(F("Invalid input. Please enter a value between 1 and 10 seconds."));
         intervalSettings();
       }
     }
+  }
+
+  // Check if intervals are set and update flags accordingly
   if (intervalLRD != 0 && intervalUltrasonic != 0) {
     printSubMenu();
     flagSubMenu = 1;
   }
-  }
 }
-int ultrasonicThreshold;
-int lrdThreshold ;
-bool flagUltrasonic = false;
-bool flagLRD = false ;
 
-int maxUltrasonic = 0;
-int minUltrasonic = 0;
 
-int maxLrd = 0;
-int minLrd = 0;
 void setUltrasonicThreshold() {
   if (flagUltrasonic) {
+
+    // Prompt user to enter Ultrasonic Sensor Threshold value
     Serial.println(F("Enter the Ultrasonic Sensor Threshold value: "));
     delay(1000);
     flagUltrasonic = false;
 
+    // Check if there is input from Serial
     if (Serial.available() > 0) {
       ultrasonicThreshold = Serial.parseInt();
       Serial.println("Ultrasonic Threshold set to: "+ String(ultrasonicThreshold));
@@ -158,10 +186,12 @@ void setUltrasonicThreshold() {
 
     int userChoice = 0;
 
+    // Prompt user for setting the value as minimum or maximum threshold
     Serial.println(F("Do you want to set this value as:"));
     Serial.println(F("1. Minimum Threshold"));
     Serial.println(F("2. Maximum Threshold"));
 
+    // Check if userChoice is neither 1 nor 2
     if (userChoice != 1 && userChoice != 2) {
       delay(1000);
       if (Serial.available() > 0) {
@@ -231,7 +261,7 @@ void setLrdThreshold() {
   }
 }
 
-
+// subMenu for the first option
 void subMenuOption(int opt) {
   switch (opt) {
     case 1:
@@ -258,6 +288,7 @@ void subMenuOption(int opt) {
       break;
   }
 }
+
 
 void setResetYes() {
   if (Serial.available()) {
@@ -327,7 +358,7 @@ void setResetYes() {
     
   }
 }
-
+// submenu option for the second option
 void subResetOption(int opt) {
   switch (opt) {
     case 1:
