@@ -258,7 +258,94 @@ sensors.
 <img width="296" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/52492d38-05a8-401c-9602-bf843d1a328a">
 
 ### 📽 Video : [ Menu ](https://youtu.be/zxJAoutdkxM)
+
+</details>
+
 # Homework-6
-![rocket-3972_256](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/39316847-11da-4220-adb8-82cbb081ed93)
+<details>
+<summary> <h2> MATRIX MINI GAME - BOMBERMAN 💣 </h2> </summary>
+  
+### Tasks
+
+Create a compact game utilizing an 8x8 matrix featuring three distinct elements: a player (slowly blinking), bombs/bullets (rapid blinking), and walls (non-blinking). This serves as an introductory exercise for your matrix project. The fundamental concept involves generating walls across the map (occupying 50% - 75% of the space) and navigating with the player to dismantle them.
+
+## Components 
+            • Arduino Uno Board ⌨️
+            • Joystick 
+            • 8x8 LED Matrix
+            • MAX7219
+            • Resistors and capacitors as needed
+            • Breadboard and connecting wires
+            • LED 🚨
+            • Buzzer 🔊
+## Details 
+            🐱 Setup game 
+                When the game starts, a "hi" message is displayed on the matrix, creating an inviting atmosphere. 
+                Press the joystick button to initiate the game. 
+                A countdown sequence (3, 2, 1) is displayed, signaling the start of the gameplay.
+                
+<img width="217" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/65a77ce4-0959-4af3-a3c2-989432745f6d">
+<img width="217" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6b946d37-d482-4849-8821-a40eb1a009bf">
+<img width="217" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/82241178-b397-4908-aa76-6ff6198a3ba3">
+<img width="217" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/09036ea9-441c-4bed-94a9-2e2aeb32cad9">
+
+            🐱 Player Control
+                Use the joystick to move the player LED within the matrix.
+                The player LED blinks slowly, providing a visual indicator of its position.
+                The player can move up, down, left, right without going through walls.
+            
+            🐱 Wall Destruction
+                Navigate the player to break walls strategically.
+                Walls cover 50% - 75% of the matrix initially.
+                Breaking walls contributes to the player's score.
+                Remember, when generating a new map, the player is strategically positioned in such a way that he can move.
+
+            🐱 Bomb Placement
+                Press the joystick button to place a bomb.
+                The bomb blinks rapidly, indicating its presence.
+                Bombs eliminate walls in all four directions upon detonation.
+
+            🐱 Scoring
+                Score is calculated based on the time taken to win and the number of walls broken.
+                A bonus is awarded for each wall destroyed.
+               
+
+            🔔 Winning the Game
+                The game is won when all walls are eliminated. 
+                A winning animation, accompanied by a festive jingle, is displayed on the matrix. The total score, 
+                including bonuses, is presented in the Serial Monitor.
+                
+            ♻️ Resetting the Game
+                After winning or when starting a new game, the system resets. 
+                Press the joystick button again to initiate a new game.
+
+## Matrix 
+<img width="400" hight="500" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/95e1beea-e6bb-4dc6-af20-dd0617830be4">
+
+My matrix is ​​of type AS. I used this table to make the correct connections
+
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/matrix_mini_game.ino)
+
+### 🕹 Electronic scheme: 
+<img width="400" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/050bc037-00db-4902-9b37-8958375c7ca7">
+ 
+
+
+### 📸 Electronic circuit in real life:
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/0622e265-0ba4-4b74-bac7-1cfb0ad5f0e8">
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/70ac8057-c796-4ed6-b34c-41ee8b78ba13">
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/5d40b922-4d6b-4b9f-84e4-c7c351ec7763">
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/b0b879ad-1ac1-45f8-ad04-a0f2289183ca">
+
+
+### 📽 Video : [ Mini Matrix Bomberman Game 💣 ](https://youtu.be/sQofCCTeTTw)
+
+### 🔌 Important : 
+- The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
+- So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
+- The LedControl library is properly installed and configured for the game to function correctly.
+
+</details> 
+
 
             
