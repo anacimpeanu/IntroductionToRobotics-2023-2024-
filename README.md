@@ -347,5 +347,110 @@ My matrix is ​​of type AS. I used this table to make the correct connections
 
 </details> 
 
+# Homework-6
+<details>
+<summary> <h2> LCD MATRIX 🌐 </h2> </summary>
+  
+### Tasks
+FEATURES FOR THE GAME LCD
+## Components 
+            • Arduino Uno Board ⌨️
+            • Joystick 
+            • 8x8 LED Matrix
+            • MAX7219
+            • Resistors and capacitors as needed
+            • Breadboard and connecting wires
+            • LED 🚨
+            • Buzzer 🔊
+            • LCD
+## INTRO MESSAGE LCD
+      🐱 The project lights up, this message will display the message   
+         "HI!" on the matrix, and the welcome messages will be played on 
+          the LCD:
+                                "WELCOME PLAYERS"
+                                "ARE YOU READY?"
+                                "FOR THIS GAME"
+                                "BOMBERMAN"
+                                
+## RULES FOR NAVIGATE 
+
+  🤓 After displaying the welcome message on the matrix screen, a representative picture for the menu will appear.
+<img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/0b96c78d-9b7d-4e0e-b5d5-38dcce74c418">
+
+  🤓 During this time, the instructions will appear on the LCD screen. You can navigate through the menu only Up or Down (obviously, using the joystick). To enter the menu, it is only necessary to scroll down or up and the options will appear
+  <img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/140144d0-44a0-4718-bc11-3b4ae2250e69">
+
+## MENU
+            🕹️ START GAME
+                • If you click on this option, the game will start (see homework 6 for the game's functionalities)
+            🕹️ SETTINGS
+                • LCD CONTRAST
+                • MATRIX CONTRAST
+                • RETURN TO MENU
+            🕹️ ABOUT
+                • Shows the creator's name and github.
+
+## SETTINGS FUNCTIONALITIES
+
+        • LCD CONTRAST 
+           The user sets the contrast he wants on the LCD, he will be       
+           greeted when he chooses this sub-option of the SETTINGS option 
+           of the navigation rule (up or down to increase or decrease the 
+           contrast level, respectively), and pressing the left button will 
+           take him to RETURN TO MENU
+  <img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/9b93af15-a85b-4578-9898-148ed38895da">
+
+          When the desired brightness has been decided, swiping to the right allows him to see that the value has been saved, and if he clicks up he will be sent back to              the options in SETTINGS.
+
+  <img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ffe0da2f-b15d-4c12-b808-a5c02dac1c5e">
+
+  !! IMPORTANT
+  Moreover, during the increase/decrease slide, representative messages will appear on the screen, as well as the brightness level
+  <img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/a395b275-4c73-403e-9b82-813770ab70e2">
+
+           • MATRIX CONTRAST 
+           The user sets the contrast he wants on the MATRIX, he will be       
+           greeted when he chooses this sub-option of the SETTINGS option 
+           of the navigation rule (up or down to increase or decrease the 
+           contrast level, respectively), and pressing the left button will 
+           take him to RETURN TO MENU
+           
+  <img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/9b93af15-a85b-4578-9898-148ed38895da">
+
+          When the desired brightness has been decided, swiping to the right allows him to see that the value has been saved, and if he clicks up he will be sent back to              the options in SETTINGS.
+
+  <img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ffe0da2f-b15d-4c12-b808-a5c02dac1c5e">
+
+  !! IMPORTANT
+  Moreover, during the increase/decrease slide, representative messages will appear on the screen, as well as the brightness level
+  <img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/a395b275-4c73-403e-9b82-813770ab70e2">
+
+## Bonus 
+During the game, the game time (in real time) and the remaining lives will appear on the LCD.
+At the end of the game, the score will be displayed together with a sound and smiley face ( Homework 6 ) and you will return to the main menu.
+<img width="300" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/2c6cafe9-02b2-43a4-83b2-29a8dded2436">
+
+## Important 
+Lives decrease when the player is within the radius of the bomb at a distance of 1.
+Thus, the lives will decrease, and at the moment of 0 lives, the game ends and you return to the menu.
+
+    
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/matrix_mini_game.ino)
+
+### 🕹 Electronic scheme: 
+- Laboratory source
+<img width="400" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/8fc92705-f607-47a6-b0ee-b2798439c8e2">
+
+### 📸 Electronic circuit in real life:
+
+
+### 📽 Video : [ Mini Matrix Bomberman Game 💣 ]
+
+### 🔌 Important : 
+- The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
+- So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
+- The LedControl library is properly installed and configured for the game to function correctly.
+
+</details> 
 
             
