@@ -452,7 +452,7 @@ FEATURES FOR THE GAME LCD
         Thus, the lives will decrease, and at the moment of 0 lives, the game ends and you return to the menu.
 
     
-### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/matrix_mini_game.ino)
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/lcd%20matrix.ino)
 
 ### 🕹 Electronic scheme: 
 - Laboratory source
@@ -466,7 +466,7 @@ FEATURES FOR THE GAME LCD
 
 
 
-### 📽 Video : [ Mini Matrix Bomberman Game 💣 ]
+### 📽 Video : [ Mini Matrix Bomberman Game LCD 💣 ]
 
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
