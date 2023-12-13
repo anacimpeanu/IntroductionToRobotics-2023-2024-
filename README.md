@@ -466,7 +466,7 @@ FEATURES FOR THE GAME LCD
 
 
 
-### 📽 Video : [ Mini Matrix Bomberman Game LCD 💣 ]
+### 📽 Video : [ Mini Matrix Bomberman Game LCD 💣 ](https://youtu.be/dTc4CBEA8FU)
 
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
