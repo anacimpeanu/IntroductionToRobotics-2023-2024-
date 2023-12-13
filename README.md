@@ -459,6 +459,11 @@ FEATURES FOR THE GAME LCD
 <img width="400" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/8fc92705-f607-47a6-b0ee-b2798439c8e2">
 
 ### 📸 Electronic circuit in real life:
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/0b76c207-54f7-4afe-9f62-b7985685a231">
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/08825859-64f0-41b3-9f00-f306360592d5">
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/d8dc45d4-e6ed-47fa-990b-2b3782e590bc">
+<img width="230" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/d09a24e5-1c29-4689-a03d-8d188f430039">
+
 
 
 ### 📽 Video : [ Mini Matrix Bomberman Game 💣 ]
