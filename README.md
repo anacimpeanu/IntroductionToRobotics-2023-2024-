@@ -520,7 +520,9 @@ Moving on to the coding phase, I meticulously crafted a function to gather data 
 <img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/02d5719c-d483-41e0-9576-846939997d56">
 <img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6c38e8e6-77c4-4c35-abb9-a01954dd9cfe">
 <img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f5a37717-4a05-4a9b-9236-c4b179fd071d">
+<div align="center"> 
 <img width="458" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/1141d368-c1e8-4af0-9d11-fb06572b9d33">
+</div>
 
 ### 📽 Video : [ Arduino radar with ultrasonic sensor 🔆](https://youtube.com/shorts/4hARGa3JwM8)
 
