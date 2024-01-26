@@ -1,85 +1,82 @@
-#include <Servo.h>
-
-// Variables for the sensor
+#include<Servo.h>
+//variables for the sensor
 const int trigPin = 8;
 const int echoPin = 9;
-
-// Variable for LED output
+//variable for led output
 const int ledPin = 12;
-
-// Variable for buzzer
+//variable for static Led
 const int constantPin = 7;
+//variables 
+long duration;
+int distance ;
 
-// Variables for motor control
 int startPoint = 0;
 int endPoint = 180;
-int triggerLed = 10;
+int triggerLed = 30;
 
-Servo servoMotor;  // Servo motor object
+Servo servoMotor;
 
-void setup() {
-  // Sensor setup
+void setup(){
+  //sensor 
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-
-  // Motor setup
-  servoMotor.attach(11);  // Attach servo to pin 11
+  //motor
+  servoMotor.attach(11);
   Serial.begin(9600);
-
-  // LED and Buzzer setup
+  //led output
   pinMode(ledPin, OUTPUT);
   pinMode(constantPin, OUTPUT);
 }
 
-void loop() {
+void loop(){
   moveMotor();
 }
 
-// Function to move the motor from left to right and right to left on a 180-degree angle
-void moveMotor() {
-  int i;
-  for (i = startPoint; i <= endPoint; i++) {
-    servoMotor.write(i);
-    delay(15);
-    calculateDistance();
-    Serial.print(i);
-    Serial.print(",");
-    Serial.print(distance);
-    Serial.print(".");
-  }
-
-  for (i = endPoint; i >= startPoint; i--) {
-    servoMotor.write(i);
-    delay(15);
-    calculateDistance();
-    Serial.print(i);
-    Serial.println(",");
-    Serial.print(distance);
-    Serial.print(".");
-  }
+//function to move the motor  from left to right and right to left on a 180 angle
+void moveMotor(){
+ int i;
+ for (i=startPoint; i<=endPoint; i++)
+ {
+  servoMotor.write(i);
+  delay(15);
+  calculateDistance();
+  Serial.print(i);
+  Serial.print(",");
+  Serial.print(distance);
+  Serial.print(".");
+ }
+ for(i=endPoint; i>=startPoint; i--)
+ {
+  servoMotor.write(i);
+  delay(15);
+  calculateDistance();
+  Serial.print(i);
+  Serial.println(",");
+  Serial.print(distance);
+  Serial.print(".");
+ }
 }
-
-// Function to calculate the distance if an object is in the range of the sensor
-int calculateDistance() {
-  digitalWrite(trigPin, LOW);
+//function to calculate the distance if an objects is in the range of the sensor
+int calculateDistance(){
+  digitalWrite(trigPin,LOW);
   delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
+  digitalWrite(trigPin,HIGH);
   delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
+  digitalWrite(trigPin,LOW);
   duration = pulseIn(echoPin, HIGH);
-  distance = duration * 0.034 / 2;
+  distance = duration*0.034/2;
   checkLed();
   return distance;
 }
-
-// Function to check if the LED can be turned on or not
-// It turns ON if there is an object extremely close to the sensor
-void checkLed() {
-  if (distance < triggerLed) {
+//function to check if the led can be turned on or not
+//it turns ON if there is an object extremely close to the sensor
+void checkLed(){
+  if (distance < triggerLed){
     digitalWrite(ledPin, HIGH);
     digitalWrite(constantPin, LOW);
     Serial.println(F("Object detected"));
-  } else {
+  }
+  else {
     digitalWrite(ledPin, LOW);
     digitalWrite(constantPin, HIGH);
   }
