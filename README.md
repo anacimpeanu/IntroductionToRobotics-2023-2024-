@@ -517,9 +517,9 @@ Moving on to the coding phase, I meticulously crafted a function to gather data 
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/servomotor.ino)
 
 ### 📸 Electronic circuit in real life:
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/02d5719c-d483-41e0-9576-846939997d56">
-<img width="290" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6c38e8e6-77c4-4c35-abb9-a01954dd9cfe">
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f5a37717-4a05-4a9b-9236-c4b179fd071d">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/02d5719c-d483-41e0-9576-846939997d56">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6c38e8e6-77c4-4c35-abb9-a01954dd9cfe">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f5a37717-4a05-4a9b-9236-c4b179fd071d">
 <img width="458" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/1141d368-c1e8-4af0-9d11-fb06572b9d33">
 
 ### 📽 Video : [ Arduino radar with ultrasonic sensor 🔆](https://youtube.com/shorts/4hARGa3JwM8)
@@ -585,9 +585,9 @@ Aim to reach the pinnacle of 13 levels for a triumphant experience.
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/MemoryGame.ino)
 
 ### 📸 Electronic circuit in real life: 
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ec277fec-2e45-495e-9367-11e66fde687e">
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/4f21755c-b10c-4ebf-a022-99d81dc22882">
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6ac4ee4b-4879-4432-9f62-bd96fff82b93">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ec277fec-2e45-495e-9367-11e66fde687e">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/4f21755c-b10c-4ebf-a022-99d81dc22882">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6ac4ee4b-4879-4432-9f62-bd96fff82b93">
 
 
 ### 📽 Video : [ Memory game🔆](https://youtu.be/dAf1eE8GmaE)
@@ -640,9 +640,9 @@ Alarm Clock with LCD, Buzzer, and RGB. Set to an absolute time (30 seconds). Whe
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/AlarmClock.ino)
 
 ### 📸 Electronic circuit in real life: 
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f4c6ca02-eb0b-4360-8187-98b72726f368">
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/b30f9e32-d378-4bcf-b3e6-ad0d96e73dec">
-<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/2b3cd7cf-c2ce-4322-8b74-2491a1b08d31">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f4c6ca02-eb0b-4360-8187-98b72726f368">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/b30f9e32-d378-4bcf-b3e6-ad0d96e73dec">
+<img width="260" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/2b3cd7cf-c2ce-4322-8b74-2491a1b08d31">
 
 
 ### 📽 Video : [ Alarm clock 🚨 ](https://youtu.be/fQbxWyLY75M)
