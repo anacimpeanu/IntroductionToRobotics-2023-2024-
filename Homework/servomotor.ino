@@ -12,7 +12,7 @@ int distance ;
 
 int startPoint = 0;
 int endPoint = 180;
-int triggerLed = 30;
+int triggerLed = 10;
 
 Servo servoMotor;
 
