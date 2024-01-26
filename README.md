@@ -597,3 +597,57 @@ Aim to reach the pinnacle of 13 levels for a triumphant experience.
 - So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
 
 </details> 
+# Homework-10
+<details>
+  
+<summary> <h2> Alarm Clock 🔆 </h2> </summary>
+  
+### Task
+
+Alarm Clock with LCD, Buzzer, and RGB. Set to an absolute time (30 seconds). When it reaches that time, the alarm triggers (buzzer sounds, and RGB LED flashes). It can be stopped by pressing a button.
+
+  ## Components 
+            • Arduino Uno Board ⌨️
+            • Buzzer
+            • Button
+            • Resistors 
+            • Breadboard and connecting wires   
+            • RGB🚨
+            • LCD
+## How it works
+
+# Setting the Alarm Time:
+
+🚨 Begin by configuring the alarm for an absolute time of 30 seconds.
+
+# Alarm Activation:
+
+🚨 Once the set time is reached, the alarm triggers. This involves the buzzer producing a sound, the RGB LED starting to flash, and the red LED turning on immediately when the user presses the designated button.
+
+# User Interaction - Stopping the Alarm:
+
+🚨 Users have the ability to stop the alarm manually by pressing a designated button. Upon button press, the red LED lights up, providing a visual confirmation that the alarm has been successfully stopped.
+
+# Continuous Countdown Display:
+
+🚨 As time progresses from 0 to 30 seconds, and every 30 seconds thereafter, a dynamic display on the LCD screen showcases the elapsed time. This provides users with a visual indication of the countdown.
+
+# Engaging User Experience:
+
+🚨 The combination of auditory (buzzer), visual (flashing RGB LED, LCD display), and tactile (button press activating the red LED) elements creates an engaging and interactive alarm experience. Users can easily perceive the passage of time, stop the alarm with a button press, and receive visual confirmation of the action through the red LED. The LCD display continuously updates to show the remaining time in the countdown.
+
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/AlarmClock.ino)
+
+### 📸 Electronic circuit in real life: 
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f4c6ca02-eb0b-4360-8187-98b72726f368">
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/b30f9e32-d378-4bcf-b3e6-ad0d96e73dec">
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/2b3cd7cf-c2ce-4322-8b74-2491a1b08d31">
+
+
+### 📽 Video : [ Alarm clock 🚨 ](https://youtu.be/fQbxWyLY75M)
+
+
+</details> 
+
+## Important
+You can see in the last picture that the alarm sounds continuously if the button is not pressed, I could not film because it was late and my flatmate was sleeping. But in essence, it's exactly like the phone alarm that rings continuously if you don't deactivate it and you can cancel it at any time, as it rings anyway after 30 seconds
