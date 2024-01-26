@@ -529,4 +529,71 @@ Moving on to the coding phase, I meticulously crafted a function to gather data 
 - So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
 
 </details> 
-            
+
+# Homework-9
+<details>
+  
+<summary> <h2> Sequence memory game 🔆 </h2> </summary>
+  
+### Task
+                  Welcome to the LED Memory Challenge, a Simon Says-inspired game that puts your memory 
+                  skills to the test! Equipped with 4 LEDs (each with resistors), 
+                  4 buttons, and 1 buzzer, this game promises a delightful mix of visual and auditory challenges. 
+                  The goal? Replicate a randomly generated LED pattern within a reasonable 3-second timeframe.
+
+  ## Components 
+            • Arduino Uno Board ⌨️
+            • Buzzer
+            • 4 buttons
+            • Resistors 
+            • Breadboard and connecting wires   
+            • 4 LEDs 🚨
+## How it works
+
+# Initialization:
+
+🚨 As you power up the Arduino, a festive rendition of "Jingle Bells" sets the tone for the game.
+With a maximum of 13 levels, the challenge awaits. Any mistakes prompt a reset, inviting you to try again.
+
+# Gameplay:
+
+🚨 Pressing any button starts a new game, unveiling a randomly generated LED pattern.
+The pattern involves illuminating specific LEDs in sequence, testing your memory prowess.
+
+# Player Input:
+
+🚨 Your task is to reproduce the pattern within 3 seconds. Press the corresponding buttons in the correct order.
+
+# Feedback:
+
+🚨 Successfully replicating the pattern triggers a pleasant sound from the buzzer.
+Any errors result in a different sound, signifying an incorrect move.
+
+# Time Constraint:
+
+🚨 There is a 3-second window between each button press. Failure to press within this timeframe restarts the game, maintaining a dynamic pace.
+
+# Levels and Progression:
+
+🚨 Conquering each level unlocks the next, escalating the complexity and length of the patterns.
+Aim to reach the pinnacle of 13 levels for a triumphant experience.
+
+# Challenge Restart:
+
+🚨 Failing to press within 3 seconds or making an error initiates a quick restart, inviting you to take on the challenge anew.
+
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/MemoryGame.ino)
+
+### 📸 Electronic circuit in real life: 
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/ec277fec-2e45-495e-9367-11e66fde687e">
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/4f21755c-b10c-4ebf-a022-99d81dc22882">
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6ac4ee4b-4879-4432-9f62-bd96fff82b93">
+
+
+### 📽 Video : [ Memory game🔆](https://youtu.be/dAf1eE8GmaE)
+
+### 🔌 Important : 
+- The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
+- So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
+
+</details> 
