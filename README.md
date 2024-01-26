@@ -514,8 +514,6 @@ FEATURES FOR THE GAME LCD
 
 Moving on to the coding phase, I meticulously crafted a function to gather data from the sensor. Within a loop, I implemented instructions for the servo motor to gracefully pivot from left to right, covering a 180-degree span. The yellow sensor light remains on when no obstacles are detected, while the red LED illuminates when an obstacle is within the sensor's range.
 
-</details>
-
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/servomotor.ino)
 
 ### 📸 Electronic circuit in real life:
