@@ -648,7 +648,7 @@ Alarm Clock with LCD, Buzzer, and RGB. Set to an absolute time (30 seconds). Whe
 ### 📽 Video : [ Alarm clock 🚨 ](https://youtu.be/fQbxWyLY75M)
 
 
-</details> 
-
 ## Important
 You can see in the last picture that the alarm sounds continuously if the button is not pressed, I could not film because it was late and my flatmate was sleeping. But in essence, it's exactly like the phone alarm that rings continuously if you don't deactivate it and you can cancel it at any time, as it rings anyway after 30 seconds
+</details> 
+
