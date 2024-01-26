@@ -597,6 +597,7 @@ Aim to reach the pinnacle of 13 levels for a triumphant experience.
 - So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
 
 </details> 
+
 # Homework-10
 <details>
   
