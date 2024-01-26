@@ -14,6 +14,9 @@ Robotics Introduction Course ( 3rd year )
 - 🚨[Homework 5](#homework-5)
 - 🚨[Homework 6](#homework-6)
 - 🚨[Homework 7](#homework-7)
+- 🚨[Homework 8](#homework-8)
+- 🚨[Homework 9](#homework-9)
+- 🚨[Homework 10](#homework-10)
 
 # Homework-1
 <details>
@@ -475,4 +478,60 @@ FEATURES FOR THE GAME LCD
 
 </details> 
 
+# Homework-8
+<details>
+  
+<summary> <h2> Arduino radar with ultrasonic sensor 🔆 </h2> </summary>
+  
+### Task
+                At its core, the project features an ultrasonic sensor attached to a servo motor,
+                providing a sweeping lateral motion covering a 180-degree span. 
+                This sensor diligently scans its surroundings within an unspecified distance.(30 unites)
+                The construction process initiates with establishing hardware connections to seamlessly 
+                translate pin numbers into subsequent code.
+                Initially, I interfaced the ultrasonic sensor with the Arduino Board:
+                🔆 VCC to 5V
+                🔆 GND to GND PIN
+                🔆 TRIG to Pin 2
+                🔆 ECHO to Pin 3
+                
+                Subsequently, the servo motor found its place in the scheme:
+
+                🔆 RED wire to 5V
+                🔆 BROWN wire to GND
+                🔆 ORANGE wire to Pin 4
+
+                To ensure a secure connection, resistors were used instead of glue to affix the ultrasonic sensor to the servo motor.
+
+  ## Components 
+            • Arduino Uno Board ⌨️
+            • Ultrasonic sensor
+            • Servo motor
+            • Resistors 
+            • Breadboard and connecting wires
+            • 2 LED 🚨
+## Result
+
+Moving on to the coding phase, I meticulously crafted a function to gather data from the sensor. Within a loop, I implemented instructions for the servo motor to gracefully pivot from left to right, covering a 180-degree span. The yellow sensor light remains on when no obstacles are detected, while the red LED illuminates when an obstacle is within the sensor's range.
+
+</details>
+
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/blob/main/Homework/servomotor.ino)
+
+### 📸 Electronic circuit in real life:
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/02d5719c-d483-41e0-9576-846939997d56">
+<img width="290" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/6c38e8e6-77c4-4c35-abb9-a01954dd9cfe">
+<img width="280" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/f5a37717-4a05-4a9b-9236-c4b179fd071d">
+<div align ="center>
+<img width="458" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/1141d368-c1e8-4af0-9d11-fb06572b9d33">
+</div>
+
+
+### 📽 Video : [ Arduino radar with ultrasonic sensor 🔆](https://youtube.com/shorts/4hARGa3JwM8)
+
+### 🔌 Important : 
+- The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
+- So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
+
+</details> 
             
